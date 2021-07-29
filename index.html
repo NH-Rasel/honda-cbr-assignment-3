@@ -23,6 +23,371 @@
 </head>
 
 <body>
+    <!-- Header Start -->
+    <header>
+        <!-- Navbar -->
+        <section style="background-color: #264653;">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto mb-2 mb-lg-0 mt-3">
+                            <a class="nav-link active me-3 text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link me-3 text-white" href="#">Shop</a>
+                            <a class="nav-link me-3 text-white" href="#">News</a>
+                            <a class="nav-link me-5 text-white" href="#">Contact</a>
+                            <div style="background-color: 
+                            #E76F51;" class="px-1 rounded-3 d-grid d-block">
+                                <button class="btn text-white" type="submit">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Banner Content-->
+            <div class="container">
+                <div class="row row-cols-2 d-flex align-items-center py-5">
+                    <div class="col-12 col-lg-6 px-lg-5">
+                        <p class="text-white"><small style="font-weight: 300;">Computer-controlled digital
+                                transistorized with electronic
+                                advance</small>
+                        </p>
+                        <h1 class="text-white fw-bold">Honda CBR 300R</h1><br>
+                        <p style="color: #E0E0E0; font-weight: 300;">If you’ve got a soft spot for sportbike design and
+                            Grand Prix
+                            stylings,
+                            then the 2021 Honda
+                            CBR300R is your sweet spot between form and function.</p>
+                        <div>
+                            <button style="background-color: 
+                            #E76F51;" type="button" class="btn text-white px-5 py-2 rounded-3 mt-2 mb-5"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content text-center">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title text-center" id="exampleModalLabel">Login First</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="mb-3 row">
+                                                <label for="exampleFormControlInput1"
+                                                    class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" class="form-control"
+                                                        id="exampleFormControlInput1">
+                                                </div>
+                                            </div>
+                                            <div class="mb-3 row">
+                                                <label for="inputPassword"
+                                                    class="col-sm-2 col-form-label">Password</label>
+                                                <div class="col-sm-10">
+                                                    <input type="password" class="form-control" id="inputPassword">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="text-center">
+                                                    New User? <a href="#" class="text-reset">Sign Up</a> here
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Reset</button>
+                                            <button type="button" class="btn btn-success">Login</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img style="padding-top: 20px; padding-left: 20px;" src="images/header-bike.png"
+                            class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Header End -->
+
+    <main>
+        <!-- Featured Bike Section -->
+        <section class="container">
+            <div class="text-center my-5">
+                <h1 style="font-weight: 600;">Featured Bikes 2021</h1>
+                <p><small style="color: #E76F51; font-weight: 600;">Best bike collection</small>
+                </p>
+            </div>
+            <div class="row row-col-1 g-5 mx-1 mt-5">
+                <div class="col-12 col-lg-4 pe-lg-5 ps-lg-5 my-5">
+                    <img style="filter: grayscale(100%);" src="images/feature-bike.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-4 pe-lg-5 ps-lg-5 my-5">
+                    <img src="images/feature-bike.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-4 pe-lg-5 ps-lg-5 my-5">
+                    <img style="filter: grayscale(100%);" src="images/feature-bike.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Happy Clients -->
+        <section class="container">
+            <div style="margin-top: 125px;" class="text-center">
+                <h1 class="fw-bold my-5">Our <span style="color: #E76F51; ">Happy Clients</span></h1>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 g-4 mb-5 mx-2 mx-lg-5">
+                <div class="col">
+                    <div class="card h-100 rounded-3">
+                        <img style="width: 149px; margin-top: 40px; margin-left: 81.5px;" src="images/user-1.png"
+                            class="card-img-top" alt="...">
+                        <div style="padding: 30px 35px 30px 35px;" class="card-body">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="d-flex justify-content-center">
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: none; stroke: #E76F51;"
+                                    xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <div style="font-weight: 600;" class="text-center mt-3">
+                                <p style="color: #23A6F0;">Miles Morals</p>
+                                <p>Banker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 rounded-3">
+                        <img style="width: 149px; margin-top: 40px; margin-left: 81.5px;" src="images/user-2.png"
+                            class="card-img-top" alt="...">
+                        <div style="padding: 30px 35px 30px 35px;" class="card-body">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="d-flex justify-content-center">
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: none; stroke: #E76F51;"
+                                    xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <div style="font-weight: 600;" class="text-center mt-3">
+                                <p style="color: #23A6F0;">Miles Morals</p>
+                                <p>Banker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 rounded-3">
+                        <img style="width: 149px; margin-top: 40px; margin-left: 81.5px;" src="images/user-3.jpg"
+                            class="card-img-top rounded-circle" alt="...">
+                        <div style="padding: 30px 35px 30px 35px;" class="card-body">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="d-flex justify-content-center">
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: #E76F51;" xmlns="http://www.w3.org/2000/svg"
+                                    class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg style="width: 22px; fill: none; stroke: #E76F51;"
+                                    xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <div style="font-weight: 600;" class="text-center mt-3">
+                                <p style="color: #23A6F0;">Miles Morals</p>
+                                <p>Banker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="container">
+            <div style="margin-top: 125px;" class="text-center">
+                <h1 class="fw-bold my-5">Frequently <span style="color: #E76F51; ">Asked Questions</span></h1>
+            </div>
+            <div class="row row-col-2 d-flex align-items-center">
+                <div class="col-12 col-lg-5 px-5">
+                    <img style="width: 432px;" src="images/faq.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 col-lg-7 px-4 px-lg-5">
+                    <div class="accordion" id="accordionExample">
+                        <div style="border: 1px solid #D5E5FB; border-radius: 5px;" class="accordion-item my-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                        and
+                                        laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                        This
+                                        will help you be a more focused and legally compliant bike rider. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border: 1px solid #D5E5FB; border-radius: 5px;" class="accordion-item my-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">How can
+                                    I tell if my helmet is old and I need a
+                                    new one?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Bear in mind that if the helmet did its job most people would tell you that they
+                                        did
+                                        not even hit their head, or did not hit their head that hard. And the thin
+                                        shells on
+                                        most helmets now tend to hide any dents in the foam. But if you can see marks on
+                                        the
+                                        shell or measure any foam crush at all, replace the helmet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border: 1px solid #D5E5FB; border-radius: 5px;" class="accordion-item my-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Things are finally starting to warm up and it’s time to get your motorcycle out
+                                        of
+                                        storage and ready for the riding season. If you’re anything like us you’ve been
+                                        chomping at the bit to get your bike out and go for a long ride. At the first
+                                        inclination of warm weather you just want to get out and go, but it’s important
+                                        to
+                                        make sure your bike is as ready to go as you are.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border: 1px solid #D5E5FB; border-radius: 5px;" class="accordion-item my-3">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                    <ol>
+                                        <li><strong>Wear a Helmet:</strong> No matter what, always wear a helmet. Invest
+                                            in
+                                            a good quality
+                                            helmet which fits you properly. Investing in a good helmet goes a long way.
+                                        </li>
+                                        <li><strong>Proper riding gear:</strong> Safety comes first, if you're going for
+                                            long rides, always
+                                            wear proper riding gear to avoid any untoward incident.
+                                        </li>
+                                        <li><strong>Don't be a squid:</strong> Ride safely and responsibly. Cutting
+                                            lanes,
+                                            overspeeding and
+                                            reckless driving aren't cool, they're madness.</li>
+
+                                    </ol>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- Bootstrap JS   -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
